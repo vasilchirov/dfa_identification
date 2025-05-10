@@ -62,43 +62,53 @@ def load_model(model_file_json: str):
 
     machine = json.loads(data)
 
-    # print(machine)
-
     dfa = defaultdict(lambda: defaultdict(str))
 
     for edge in machine["edges"]:
         dfa[edge["source"]][edge["name"]] = edge["target"]
 
+    # somtimes in the json of the inferred dfa accepting states are marked 0 and not 1
+    if machine['types'][0] == "0":
+        is_accepting_1 = True
+    else:
+        is_accepting_1 = False
+
     for node in machine["nodes"]:
-        # print(node['data'])
         if 'final_counts' not in node['data'].keys():
             node_type = '-1'
-        # in the json file for some reason a '0' final_count means a positive trace ended there
         elif '0' in node['data']['final_counts'].keys() and node['data']['final_counts']['0'] > 0:
-            node_type = '1'
+            if is_accepting_1:
+                node_type = '0'
+            else:
+                node_type = '1'
         elif '1' in node['data']['final_counts'].keys() and node['data']['final_counts']['1'] > 0:
-            node_type = '0'
+            if is_accepting_1:
+                node_type = '1'
+            else:
+                node_type = '0'
         else:
             node_type = '-1'
         dfa[str(node['id'])]["type"] = node_type
 
-    return dfa, machine
+    return machine["nodes"][0]["id"], dfa, machine
 
 
-def traverse(dfa, sequence):
+def traverse(start_node_id, dfa, sequence):
     """Wrapper to traverse a given model with a string
 
        Keyword arguments:
        dfa -- loaded model
        sequence -- space-separated string to accept/reject in dfa
       """
-    state = "0"
+
+    state = str(start_node_id)
     counter = 0
 
     for event in sequence.split(" "):
         sym = event.split(":")[0]
 
         state = dfa[state][sym]
+
         counter += 1
         # if state == "":
         #     print("Out of alphabet: non-existent")
