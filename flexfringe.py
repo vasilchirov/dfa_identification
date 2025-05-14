@@ -6,6 +6,8 @@ import json
 import re
 from collections import defaultdict
 
+import kfold
+
 
 def flexfringe(*args, **kwargs):
     """Wrapper to call the flexfringe binary
@@ -121,3 +123,44 @@ def traverse(start_node_id, dfa, sequence):
         #         return -1
 
     return dfa[state]["type"] == '1'
+
+
+def calculate_accuracy(traces, start_node_id, m):
+    rows = traces.split("\n")
+    samples = []
+
+    for i in range(len(rows)):
+        if i == 0:
+            continue
+        path = rows[i].split(" ")
+        samples.append([" ".join(path[2:]), path[0]])
+
+    counter = 0
+    tp = 0;
+    tn = 0;
+    fp = 0;
+    fn = 0
+    for sample in samples:
+        if sample[1] == '1':
+            is_positive = True
+        else:
+            is_positive = False
+
+        is_accepted = traverse(start_node_id, m, sample[0])
+
+        if is_accepted == is_positive:
+            counter += 1
+        if is_accepted:
+            if is_positive:
+                tp += 1
+            else:
+                fp += 1
+        else:
+            if is_positive:
+                fn += 1
+            else:
+                tn += 1
+    sensitivity = tp / (tp + fn)
+    specificity = tn / (tn + fp)
+    bcr = 2 * sensitivity * specificity / (sensitivity + specificity)
+    return [tp, tn, fp, fn, counter, len(samples), bcr]
