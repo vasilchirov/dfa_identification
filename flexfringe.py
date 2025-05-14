@@ -1,21 +1,18 @@
 import subprocess
-import sys
 import graphviz
 
 import json
 import re
 from collections import defaultdict
 
-import kfold
-
 
 def flexfringe(*args, **kwargs):
     """Wrapper to call the flexfringe binary
 
      Keyword arguments:
-     position 0 -- input file with trace samples (from flexfringe build)
-     position 1 -- location of the FlexFringe build directory (e.g. ../Flexfringe/build/)
-     kwargs -- list of key=value arguments to pass as command line arguments
+    - position 0 -- input file with trace samples (from flexfringe build)
+    - position 1 -- location of the FlexFringe build directory (e.g. ../Flexfringe/build/)
+    - kwargs -- list of key=value arguments to pass as command line arguments
     """
     command = ["--help"]
 
@@ -40,9 +37,9 @@ def flexfringe(*args, **kwargs):
 def show(data, filename="output_DFA"):
     """Save a .png representation of the graph in output_DFAs/
 
-      Keyword arguments:
-      data -- string formated in graphviz dot language to visualize
-      filename -- output file name
+     Keyword arguments:
+    - data -- string formated in graphviz dot language to visualize
+    - filename -- output file name
     """
     if not data:
         pass
@@ -98,9 +95,9 @@ def load_model(model_file_json: str):
 def traverse(start_node_id, dfa, sequence):
     """Wrapper to traverse a given model with a string
 
-       Keyword arguments:
-       dfa -- loaded model
-       sequence -- space-separated string to accept/reject in dfa
+     Keyword arguments:
+    - dfa -- loaded model
+    - sequence -- space-separated string to accept/reject in dfa
       """
 
     state = str(start_node_id)
@@ -125,8 +122,16 @@ def traverse(start_node_id, dfa, sequence):
     return dfa[state]["type"] == '1'
 
 
-def calculate_accuracy(traces, start_node_id, m):
-    rows = traces.split("\n")
+def calculate_accuracy(test_traces, start_node_id, dfa_model):
+    """
+    Function that calculates the accuracy of an inferred DFA model
+
+    :param test_traces: unseen test traces
+    :param start_node_id: id of the start node of the DFA
+    :param dfa_model: loaded model
+    :return: the following array [#tp, #tn, #fp, #fn, # correct predictions, total number of predictions, bcr accuracy]
+    """
+    rows = test_traces.split("\n")
     samples = []
 
     for i in range(len(rows)):
@@ -146,7 +151,7 @@ def calculate_accuracy(traces, start_node_id, m):
         else:
             is_positive = False
 
-        is_accepted = traverse(start_node_id, m, sample[0])
+        is_accepted = traverse(start_node_id, dfa_model, sample[0])
 
         if is_accepted == is_positive:
             counter += 1

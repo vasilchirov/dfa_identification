@@ -6,17 +6,17 @@ import experiment
 #                              ini="../ini/edsm.ini")
 # flexfringe.show(data, "1_training_final")
 
-data = flexfringe.flexfringe("../../dfa_identification/datasets/100_training_stamina_train.dat", "../FlexFringe/build/",
-                             ini="../ini/edsm.ini")
-
-start_node_id, m, data_2 = flexfringe.load_model(
-    "../dfa_identification/datasets/100_training_stamina_train.dat.ff.final.json")
-
-with open("datasets/100_training_stamina_test.dat") as test_set:
-    traces = test_set.read()
-
-result = flexfringe.calculate_accuracy(traces, start_node_id, m)
-flexfringe.show(data, "edsm_100")
+# data = flexfringe.flexfringe("../../dfa_identification/datasets/100_training_stamina_train.dat", "../FlexFringe/build/",
+#                              ini="../ini/edsm.ini")
+#
+# start_node_id, m, data_2 = flexfringe.load_model(
+#     "../dfa_identification/datasets/100_training_stamina_train.dat.ff.final.json")
+#
+# with open("datasets/100_training_stamina_test.dat") as test_set:
+#     traces = test_set.read()
+#
+# result = flexfringe.calculate_accuracy(traces, start_node_id, m)
+# flexfringe.show(data, "edsm_100")
 #
 # print("tp:", result[0], ", fp:", result[2], ", tn:", result[1], ", fn:", result[3],
 #       ", bcr accuracy:", result[6], ", ratio:", result[4] / result[5])
@@ -61,6 +61,6 @@ flexfringe.show(data, "edsm_100")
 
 # print(result[6])
 
-# res = experiment.run("../FlexFringe/data/staminadata/100_training.txt.dat", 5, "../FlexFringe/build/",
-#                "../../dfa_identification/", ini="../ini/overlap.ini")
-# print("bcr:", res)
+res = experiment.run("../FlexFringe/data/staminadata/100_training.txt.dat", 5, "../FlexFringe/build/",
+               "../../dfa_identification/", ini="../ini/edsm.ini")
+print("bcr:", res)

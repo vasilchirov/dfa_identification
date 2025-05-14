@@ -1,6 +1,13 @@
 from math import floor
 
+
 def generate_k_folds(k: int, file_name):
+    """
+    Generates k-fold files from a given traces file
+
+    :param k: number of folds
+    :param file_name: path to the traces file
+    """
     with open(file_name) as test_set:
         traces = test_set.read()
 
@@ -20,13 +27,13 @@ def generate_k_folds(k: int, file_name):
         train_folds[i] = rows[1:][:fr] + rows[1:][to:]
 
     for i in range(k):
-        with open("kfold/" + file_name.split("/")[-1] + f"_train_{i+1}.dat", "w") as f:
+        with open("kfold/" + file_name.split("/")[-1] + f"_train_{i + 1}.dat", "w") as f:
             f.write(str(len(train_folds[i])) + " 50\n")
             for j in range(len(train_folds[i])):
                 f.write(train_folds[i][j])
                 if j != len(train_folds[i]) - 1:
                     f.write("\n")
-        with open("kfold/" + file_name.split("/")[-1] + f"_test_{i+1}.dat", "w") as f:
+        with open("kfold/" + file_name.split("/")[-1] + f"_test_{i + 1}.dat", "w") as f:
             f.write(str(len(test_folds[i])) + " 50\n")
             for j in range(len(test_folds[i])):
                 f.write(test_folds[i][j])

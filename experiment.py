@@ -3,12 +3,13 @@ import kfold
 import os
 import shutil
 
+
 def run(*args, **kwargs):
     """
-    Levski ale
+    Performs k-fold cross validation on a given set of traces using FlexFringe in a certain setting.
 
      Arguments:
-    - position 0 -- input file with trace samples (path from FlexFringe build)
+    - position 0 -- path to input file with trace samples (path from FlexFringe build)
     - position 1 -- k (for k-fold cross validation) (k > 1)
     - position 2 -- location of the FlexFringe build directory (e.g. ../FlexFringe/build/)
     - position 3 -- location of dfa_identification from FlexFringe build (e.g. ../../dfa_identification/)
