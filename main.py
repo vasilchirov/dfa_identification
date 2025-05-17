@@ -61,6 +61,8 @@ import experiment
 
 # print(result[6])
 
-res = experiment.run("../FlexFringe/data/staminadata/100_training.txt.dat", 5, "../FlexFringe/build/",
+res = experiment.run("../FlexFringe/data/staminadata/100_training.txt.dat", 2, "../FlexFringe/build/",
                "../../dfa_identification/", ini="../ini/edsm.ini")
+# res = experiment.run("generated-datasets/4.dat", 5, "../FlexFringe/build/",
+#                "../../dfa_identification/", ini="../ini/edsm.ini")
 print("bcr:", res)

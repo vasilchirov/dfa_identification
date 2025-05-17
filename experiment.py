@@ -21,20 +21,26 @@ def run(*args, **kwargs):
     dfa_identification_dir = args[3]
 
     os.makedirs("kfold", exist_ok=True)
-    kfold.generate_k_folds(k, file_name)
+    try:
+        kfold.generate_k_folds(k, file_name)
 
-    total = 0.0
-    for i in range(k):
-        train_fold_name = file_name.split("/")[-1] + f"_train_{i + 1}.dat"
-        test_fold_name = file_name.split("/")[-1] + f"_test_{i + 1}.dat"
-        data = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name, build_dir, **kwargs)
-        start_node_id, m, data_2 = flexfringe.load_model("kfold/" + train_fold_name + ".ff.final.json")
-        with open(f"kfold/" + test_fold_name) as test_set:
-            traces = test_set.read()
-        result = flexfringe.calculate_accuracy(traces, start_node_id, m)
-        # print("tp:", result[0], ", fp:", result[2], ", tn:", result[1], ", fn:", result[3],
-        #       ", bcr accuracy:", result[6], ", ratio:", result[4] / result[5])
-        total += result[6]
+        total = 0.0
+        for i in range(k):
+            train_fold_name = file_name.split("/")[-1] + f"_train_{i + 1}.dat"
+            test_fold_name = file_name.split("/")[-1] + f"_test_{i + 1}.dat"
+            data = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name, build_dir, **kwargs)
+            # flexfringe.show(data, "etukaeitei") if i == 4 else None
+            start_node_id, m, data_2 = flexfringe.load_model("kfold/" + train_fold_name + ".ff.final.json")
+            with open(f"kfold/" + test_fold_name) as test_set:
+                traces = test_set.read()
+            result = flexfringe.calculate_accuracy(traces, start_node_id, m)
+            print("tp:", result[0], ", fp:", result[2], ", tn:", result[1], ", fn:", result[3],
+                  ", bcr accuracy:", result[6], ", ratio:", result[4] / result[5])
+            total += result[6]
 
-    shutil.rmtree("kfold")
+        shutil.rmtree("kfold")
+    except Exception as e:
+        shutil.rmtree("kfold")
+        print(e)
+        return None
     return total / k

@@ -118,7 +118,6 @@ def traverse(start_node_id, dfa, sequence):
         #     except IndexError:
         #         # print("Out of alphabet: alternatives")
         #         return -1
-
     return dfa[state]["type"] == '1'
 
 
@@ -165,7 +164,7 @@ def calculate_accuracy(test_traces, start_node_id, dfa_model):
                 fn += 1
             else:
                 tn += 1
-    sensitivity = tp / (tp + fn)
-    specificity = tn / (tn + fp)
+    sensitivity = tp / (tp + fn) if (tp + fn) > 0 else 1
+    specificity = tn / (tn + fp) if (tn + fp) > 0 else 1
     bcr = 2 * sensitivity * specificity / (sensitivity + specificity)
     return [tp, tn, fp, fn, counter, len(samples), bcr]
