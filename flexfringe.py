@@ -7,11 +7,11 @@ from collections import defaultdict
 
 
 def flexfringe(*args, **kwargs):
-    """Wrapper to call the flexfringe binary
+    """Wrapper to call the FlexFringe binary
 
      Keyword arguments:
-    - position 0 -- input file with trace samples (from flexfringe build)
-    - position 1 -- location of the FlexFringe build directory (e.g. ../Flexfringe/build/)
+    - position 0 -- path to input file with trace samples (from flexfringe root)
+    - position 1 -- location of the FlexFringe root directory (e.g. ../Flexfringe/)
     - kwargs -- list of key=value arguments to pass as command line arguments
     """
     command = ["--help"]
@@ -21,7 +21,7 @@ def flexfringe(*args, **kwargs):
         for key in kwargs:
             command += ["--" + key + "=" + kwargs[key]]
 
-    result = subprocess.run(["./flexfringe", ] + command + [args[0]], stdout=subprocess.PIPE,
+    result = subprocess.run(["./build/flexfringe", ] + command + [args[0]], stdout=subprocess.PIPE,
                             stderr=subprocess.PIPE, universal_newlines=True, cwd=args[1])
     print(result.returncode, result.stdout, result.stderr)
 
@@ -64,7 +64,7 @@ def load_model(model_file_json: str):
     dfa = defaultdict(lambda: defaultdict(str))
 
     for edge in machine["edges"]:
-        dfa[edge["source"]][edge["name"]] = edge["target"]
+        dfa[str(edge["source"])][str(edge["label"])] = str(edge["target"])
 
     # somtimes in the json of the inferred dfa accepting states are marked 0 and not 1
     if machine['types'][0] == "0":
@@ -87,6 +87,7 @@ def load_model(model_file_json: str):
                 node_type = '0'
         else:
             node_type = '-1'
+
         dfa[str(node['id'])]["type"] = node_type
 
     return machine["nodes"][0]["id"], dfa, machine
@@ -118,6 +119,7 @@ def traverse(start_node_id, dfa, sequence):
         #     except IndexError:
         #         # print("Out of alphabet: alternatives")
         #         return -1
+
     return dfa[state]["type"] == '1'
 
 
