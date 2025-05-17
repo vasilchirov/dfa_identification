@@ -1,46 +1,22 @@
-from math import floor
+import experiment
 
-import flexfringe
-
-# data = flexfringe.flexfringe("../data/staminadata/1_training.txt.dat", "../FlexFringe/build/",
-#                              ini="../ini/edsm.ini")
-# flexfringe.show(data, "1_training_final")
-
-data = flexfringe.flexfringe("../../dfa_identification/datasets/100_training_stamina_train.dat", "../FlexFringe/build/",
-                             ini="../ini/edsm.ini")
-# flexfringe.show(data, "1_training_final")
-
-# start_node_id, m, data = flexfringe.load_model("../FlexFringe/data/staminadata/1_training.txt.dat.ff.final.json")
+# data = flexfringe.flexfringe("../../Research Project/dfa_identification/datasets/100_training_stamina_train.dat", "../../Software Project/FlexFringe/",
+#                              ini="ini/edsm.ini")
 #
-# positive = ["1 0 0 0 0 0 0 0 0", "0 1 1 0 0 0 1 0 1 0 1 0 1 0 0", "1 0 1 0 0"]
-# negative = ["0 1 0 0 0", "1 1 0 0 0 0 0 0 0 1 0 0", "0 0 0 0 0 1"]
+# start_node_id, m, data_2 = flexfringe.load_model(
+#     "datasets/100_training_stamina_train.dat.ff.final.json")
 #
-# for sample in positive:
-#   print("positive: ", flexfringe.traverse(start_node_id, m, sample))
+# with open("datasets/100_training_stamina_test.dat") as test_set:
+#     traces = test_set.read()
 #
-# for sample in negative:
-#   print("negative: ", flexfringe.traverse(start_node_id, m, sample))
+# result = flexfringe.calculate_accuracy(traces, start_node_id, m)
+# # flexfringe.show(data, "kurec")
+# #
+# print("tp:", result[0], ", fp:", result[2], ", tn:", result[1], ", fn:", result[3],
+#       ", bcr accuracy:", result[6], ", ratio:", result[4] / result[5])
 
-start_node_id, m, data = flexfringe.load_model("../dfa_identification/datasets/100_training_stamina_train.dat.ff.final.json")
-
-with open("datasets/100_training_stamina_test.dat") as test_set:
-    traces = test_set.read()
-
-rows = traces.split("\n")
-samples = []
-
-for i in range(len(rows)):
-    if i == 0:
-        continue
-    path = rows[i].split(" ")
-    samples.append([" ".join(path[2:]), path[0]])
-
-counter = 0
-for sample in samples:
-    if sample[1] == '1':
-        is_positive = True
-    else:
-        is_positive = False
-    counter += (flexfringe.traverse(start_node_id, m, sample[0]) == is_positive)
-
-print("correct:", counter, "/", len(samples), ", accuracy:", str(counter * 100 / (len(samples))) + "%")
+res = experiment.run("../FlexFringe/data/staminadata/100_training.txt.dat", 5, "../FlexFringe/",
+               "../dfa_identification/", ini="ini/edsm.ini")
+# res = experiment.run("generated-datasets/4.dat", 5, "../FlexFringe/build/",
+#                "../../dfa_identification/", ini="../ini/edsm.ini")
+print("bcr:", res)
