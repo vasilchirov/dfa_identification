@@ -1,6 +1,10 @@
-import numpy as np
+def remove_duplicate_traces(traces: str) -> str:
+    """
+    Function to remove duplicate traces from a traces string
 
-def remove_duplicate_traces(traces: str):
+    :param traces: traces string
+    :return: unique traces string
+    """
     rows = traces.split("\n")
     seen = set()
     new_rows = []
@@ -14,12 +18,17 @@ def remove_duplicate_traces(traces: str):
             seen.add(rows[i])
             new_rows.append(rows[i])
 
-    print("LEEEEEVSKI", len(new_rows), len(rows))
-
     return "\n".join(new_rows)
 
 
 def prepare_test_set(test: list[str], train: list[str]):
+    """
+    Removes duplicate traces from a test traces array
+
+    :param test: list of test traces
+    :param train: list of train traces
+    :return: unique test traces array
+    """
     train_set = set(train)
     test_set = set()
     new_test = []
