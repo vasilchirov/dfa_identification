@@ -1,0 +1,7 @@
+generated-datasets/train_data.dat = offset:4, aptabound:500, bcr: 0.7747544767183198, time: 8.219586475999677, state_count: 25
+generated-datasets/train_data.dat = offset:5, aptabound:600, bcr: 0.801620598107384, time: 17.32174999000017, state_count: 25
+generated-datasets/train_data.dat = offset:9, aptabound:700, bcr: 0.7741430347319044, time: 51.07567412799972, state_count: 25
+generated-datasets/train_data.dat = offset:9, aptabound:800, bcr: 0.7783074262834251, time: 53.29494305600019, state_count: 25
+generated-datasets/train_data.dat = offset:10, aptabound:900, bcr: 0.7871960131621373, time: 86.20824768200009, state_count: 25
+generated-datasets/train_data.dat = offset:12, aptabound:1000, bcr: 0.7734531190106205, time: 241.31330262099982, state_count: 25
+generated-datasets/train_data.dat = offset:12, aptabound:1100, bcr: 0.7968320240945899, time: 952.5914256329997, state_count: 25

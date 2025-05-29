@@ -8,13 +8,15 @@ from collections import defaultdict
 import count_nodes
 
 
-def flexfringe(*args, **kwargs):
+def flexfringe(*args, **kwargs) -> tuple[str | None, int]:
     """Wrapper to call the FlexFringe binary
 
      Keyword arguments:
     - position 0 -- path to input file with trace samples (from flexfringe root)
     - position 1 -- location of the FlexFringe root directory (e.g. ../Flexfringe/)
     - kwargs -- list of key=value arguments to pass as command line arguments
+
+    :return: tuple of: resulting dfa as str, number of states in the dfa
     """
     command = ["--help"]
 
@@ -27,14 +29,27 @@ def flexfringe(*args, **kwargs):
                             stderr=subprocess.PIPE, universal_newlines=True, cwd=args[1])
     print(result.returncode, result.stdout, result.stderr)
 
+    if "mode" in kwargs.keys() and kwargs["mode"] == "satsolver":
+        with open("logs/stamina_experiment_updated_log.txt", "a") as f:
+            if "SATISFIABLE" in result.stderr.split("\n"):
+                print("<<<<SATISFIABLE>>>>")
+                f.write("<<<<SATISFIABLE>>>>\n")
+            elif "UNSATISFIABLE" in result.stderr.split("\n"):
+                print("<<<<UNSATISFIABLE>>>>")
+                f.write("<<<<UNSATISFIABLE>>>>\n")
+            else:
+                print("<<<<NEITHER?>>>>")
+                f.write("<<<<NEITHER?>>>>\n")
+
     try:
         with open(args[1] + args[0] + ".ff.final.dot") as fh:
-            print(count_nodes.count_states(args[1] + args[0] + ".ff.final.dot"))
-            return fh.read()
-    except FileNotFoundError:
-        pass
+            state_count = count_nodes.count_states(args[1] + args[0] + ".ff.final.dot")
+            print(state_count)
+            return fh.read(), state_count
+    except FileNotFoundError as e:
+        print(e)
 
-    return None
+    return None, 0
 
 
 def show(data, filename="output_DFA"):
