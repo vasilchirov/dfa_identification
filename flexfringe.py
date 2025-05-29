@@ -5,6 +5,8 @@ import json
 import re
 from collections import defaultdict
 
+import count_nodes
+
 
 def flexfringe(*args, **kwargs):
     """Wrapper to call the FlexFringe binary
@@ -27,6 +29,7 @@ def flexfringe(*args, **kwargs):
 
     try:
         with open(args[1] + args[0] + ".ff.final.dot") as fh:
+            print(count_nodes.count_states(args[1] + args[0] + ".ff.final.dot"))
             return fh.read()
     except FileNotFoundError:
         pass
