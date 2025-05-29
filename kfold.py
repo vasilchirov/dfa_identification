@@ -17,7 +17,7 @@ def generate_k_folds(k: int, file_name):
 
     header = rows[0]
     data_rows = rows[1:]
-    np.random.shuffle(data_rows)
+    # np.random.shuffle(data_rows)
     data_rows.remove("") if "" in data_rows else data_rows
     train_folds = [[] for _ in range(k)]
     test_folds = [[] for _ in range(k)]

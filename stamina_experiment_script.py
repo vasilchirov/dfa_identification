@@ -29,14 +29,16 @@ for line in data.split("\n"):
     bcr_edsm, bcrs_list_edsm, state_counts_edsm_kfold = experiment.run_kfold(line, 5, "../FlexFringe/",
                                                                              "../dfa_identification/",
                                                                              ini="ini/edsm.ini")
-    offsets = [str(state_counts_edsm[i] - state_counts_edsm_1000[i])
-               if state_counts_edsm[i] - state_counts_edsm_1000[i] <= 12 else "12" for i in range(5)]
-
-    dfa_bounds = [str(state_counts_edsm[i] - 12)
-                  if state_counts_edsm[i] - state_counts_edsm_1000[i] > 12 else str(state_counts_edsm[i]) for i in
-                  range(5)]
-
-    apta_bounds = ["1000" if state_counts_edsm[i] - state_counts_edsm_1000[i] <= 12 else "0" for i in range(5)]
+    offsets = []; dfa_bounds = []; apta_bounds = []
+    for i in range(5):
+        if state_counts_edsm[i] - state_counts_edsm_1000[i] <= 12:
+            offsets.append(str(state_counts_edsm[i] - state_counts_edsm_1000[i]))
+            dfa_bounds.append(str(state_counts_edsm[i]))
+            apta_bounds.append("1000")
+        else:
+            offsets.append("12")
+            dfa_bounds.append(str(state_counts_edsm[i] - 12))
+            apta_bounds.append("0")
 
     start = time.perf_counter()
     bcr, bcrs_list, state_counts = experiment.run_kfold(line, 5, "../FlexFringe/", "../dfa_identification/",
