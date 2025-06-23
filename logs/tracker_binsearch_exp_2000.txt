@@ -1,0 +1,425 @@
+<<<<<<stamina_exp_binsearch_dfabound_apta=2000_log.txt; apta bound:2000>>>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 1:
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 57 ; started at: 2025-06-12 01:32:41<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 53 ; started at: 2025-06-12 01:32:51<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 55 ; started at: 2025-06-12 01:32:58<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 56 ; started at: 2025-06-12 01:33:05<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 2:
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 53 ; started at: 2025-06-12 01:33:14<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 57 ; started at: 2025-06-12 01:33:22<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 55 ; started at: 2025-06-12 01:33:27<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 54 ; started at: 2025-06-12 01:33:33<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 3:
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 58 ; started at: 2025-06-12 01:33:40<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 63 ; started at: 2025-06-12 01:33:50<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 60 ; started at: 2025-06-12 01:33:52<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 59 ; started at: 2025-06-12 01:33:59<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 4:
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 57 ; started at: 2025-06-12 01:34:07<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 53 ; started at: 2025-06-12 01:34:14<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 55 ; started at: 2025-06-12 01:34:22<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 56 ; started at: 2025-06-12 01:34:27<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 5:
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 55 ; started at: 2025-06-12 01:34:33<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 60 ; started at: 2025-06-12 01:34:40<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 57 ; started at: 2025-06-12 01:34:48<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 58 ; started at: 2025-06-12 01:34:57<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 59 ; started at: 2025-06-12 01:35:05<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 1:
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 40 ; started at: 2025-06-12 01:35:15<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 43 ; started at: 2025-06-12 01:35:18<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 44 ; started at: 2025-06-12 01:35:18<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 45 ; started at: 2025-06-12 01:35:19<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 2:
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 40 ; started at: 2025-06-12 01:35:20<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 43 ; started at: 2025-06-12 01:35:23<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 44 ; started at: 2025-06-12 01:35:23<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 45 ; started at: 2025-06-12 01:35:24<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 3:
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 55 ; started at: 2025-06-12 01:35:24<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 64 ; started at: 2025-06-12 01:35:34<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 69 ; started at: 2025-06-12 01:35:42<<<<SATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 66 ; started at: 2025-06-12 01:35:48<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 67 ; started at: 2025-06-12 01:35:57<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 68 ; started at: 2025-06-12 01:36:02<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 4:
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 40 ; started at: 2025-06-12 01:36:09<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 43 ; started at: 2025-06-12 01:36:11<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 44 ; started at: 2025-06-12 01:36:12<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 45 ; started at: 2025-06-12 01:36:12<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 5:
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 40 ; started at: 2025-06-12 01:36:13<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 43 ; started at: 2025-06-12 01:36:16<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 44 ; started at: 2025-06-12 01:36:16<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 45 ; started at: 2025-06-12 01:36:17<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 1:
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 55 ; started at: 2025-06-12 01:36:19<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 70 ; started at: 2025-06-12 01:36:43<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 77 ; started at: 2025-06-12 01:37:17<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 81 ; started at: 2025-06-12 01:37:31<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 79 ; started at: 2025-06-12 01:37:41<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 80 ; started at: 2025-06-12 01:37:50<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 2:
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 59 ; started at: 2025-06-12 01:38:00<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 75 ; started at: 2025-06-12 01:38:32<<<<<<stamina_exp_binsearch_dfabound_apta=2000_log.txt; apta bound:2000>>>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 1:
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 57 ; started at: 2025-06-12 01:40:40<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 53 ; started at: 2025-06-12 01:40:49<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 55 ; started at: 2025-06-12 01:40:56<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 56 ; started at: 2025-06-12 01:41:03<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 2:
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 53 ; started at: 2025-06-12 01:41:12<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 57 ; started at: 2025-06-12 01:41:20<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 55 ; started at: 2025-06-12 01:41:25<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 54 ; started at: 2025-06-12 01:41:31<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 3:
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 58 ; started at: 2025-06-12 01:41:38<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 63 ; started at: 2025-06-12 01:41:47<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 60 ; started at: 2025-06-12 01:41:50<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 59 ; started at: 2025-06-12 01:41:57<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 4:
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 57 ; started at: 2025-06-12 01:42:07<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 53 ; started at: 2025-06-12 01:42:14<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 55 ; started at: 2025-06-12 01:42:22<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 56 ; started at: 2025-06-12 01:42:27<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 5:
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 55 ; started at: 2025-06-12 01:42:33<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 60 ; started at: 2025-06-12 01:42:40<<<<SATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 57 ; started at: 2025-06-12 01:42:48<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 58 ; started at: 2025-06-12 01:42:57<<<<UNSATISFIABLE>>>>
+starting: 5_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 59 ; started at: 2025-06-12 01:43:05<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 1:
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 40 ; started at: 2025-06-12 01:43:15<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 43 ; started at: 2025-06-12 01:43:18<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 44 ; started at: 2025-06-12 01:43:18<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 45 ; started at: 2025-06-12 01:43:19<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 2:
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 40 ; started at: 2025-06-12 01:43:19<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 43 ; started at: 2025-06-12 01:43:22<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 44 ; started at: 2025-06-12 01:43:23<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 45 ; started at: 2025-06-12 01:43:23<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 3:
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 55 ; started at: 2025-06-12 01:43:24<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 64 ; started at: 2025-06-12 01:43:34<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 69 ; started at: 2025-06-12 01:43:41<<<<SATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 66 ; started at: 2025-06-12 01:43:48<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 67 ; started at: 2025-06-12 01:43:58<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 68 ; started at: 2025-06-12 01:44:03<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 4:
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 40 ; started at: 2025-06-12 01:44:10<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 43 ; started at: 2025-06-12 01:44:12<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 44 ; started at: 2025-06-12 01:44:13<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 45 ; started at: 2025-06-12 01:44:13<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/10_training.txt.dat; 5:
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 40 ; started at: 2025-06-12 01:44:14<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 43 ; started at: 2025-06-12 01:44:17<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 44 ; started at: 2025-06-12 01:44:17<<<<UNSATISFIABLE>>>>
+starting: 10_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 45 ; started at: 2025-06-12 01:44:18<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 1:
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 55 ; started at: 2025-06-12 01:44:20<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 70 ; started at: 2025-06-12 01:44:44<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 77 ; started at: 2025-06-12 01:45:16<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 81 ; started at: 2025-06-12 01:45:30<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 79 ; started at: 2025-06-12 01:45:40<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 80 ; started at: 2025-06-12 01:45:49<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 2:
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 59 ; started at: 2025-06-12 01:46:00<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 75 ; started at: 2025-06-12 01:46:32<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 83 ; started at: 2025-06-12 01:47:05<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 87 ; started at: 2025-06-12 01:47:23<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 85 ; started at: 2025-06-12 01:47:32<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 84 ; started at: 2025-06-12 01:47:44<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 3:
+starting: 15_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 56 ; started at: 2025-06-12 01:47:56<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 72 ; started at: 2025-06-12 01:48:20<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 80 ; started at: 2025-06-12 01:48:44<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 84 ; started at: 2025-06-12 01:48:53<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 82 ; started at: 2025-06-12 01:49:00<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 81 ; started at: 2025-06-12 01:49:07<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 4:
+starting: 15_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 53 ; started at: 2025-06-12 01:49:14<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 68 ; started at: 2025-06-12 01:49:40<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 75 ; started at: 2025-06-12 01:49:58<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 71 ; started at: 2025-06-12 01:50:12<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 73 ; started at: 2025-06-12 01:50:23<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 74 ; started at: 2025-06-12 01:50:34<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/15_training.txt.dat; 5:
+starting: 15_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 60 ; started at: 2025-06-12 01:50:52<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 76 ; started at: 2025-06-12 01:51:22<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 84 ; started at: 2025-06-12 01:51:51<<<<UNSATISFIABLE>>>>
+starting: 15_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 88 ; started at: 2025-06-12 01:52:04<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 86 ; started at: 2025-06-12 01:52:11<<<<SATISFIABLE>>>>
+starting: 15_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 85 ; started at: 2025-06-12 01:52:25<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/20_training.txt.dat; 1:
+starting: 20_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 25 ; started at: 2025-06-12 01:52:41<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 38 ; started at: 2025-06-12 01:52:46<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 44 ; started at: 2025-06-12 01:52:49<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 47 ; started at: 2025-06-12 01:52:51<<<<SATISFIABLE>>>>
+starting: 20_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 45 ; started at: 2025-06-12 01:52:52<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/20_training.txt.dat; 2:
+starting: 20_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 24 ; started at: 2025-06-12 01:52:55<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 36 ; started at: 2025-06-12 01:52:59<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 42 ; started at: 2025-06-12 01:53:03<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 45 ; started at: 2025-06-12 01:53:05<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 46 ; started at: 2025-06-12 01:53:05<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 47 ; started at: 2025-06-12 01:53:05<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/20_training.txt.dat; 3:
+starting: 20_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 26 ; started at: 2025-06-12 01:53:07<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 39 ; started at: 2025-06-12 01:53:11<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 46 ; started at: 2025-06-12 01:53:15<<<<SATISFIABLE>>>>
+starting: 20_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 42 ; started at: 2025-06-12 01:53:19<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 44 ; started at: 2025-06-12 01:53:22<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 45 ; started at: 2025-06-12 01:53:26<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/20_training.txt.dat; 4:
+starting: 20_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 26 ; started at: 2025-06-12 01:53:29<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 39 ; started at: 2025-06-12 01:53:34<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 45 ; started at: 2025-06-12 01:53:37<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 48 ; started at: 2025-06-12 01:53:38<<<<SATISFIABLE>>>>
+starting: 20_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 46 ; started at: 2025-06-12 01:53:40<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 47 ; started at: 2025-06-12 01:53:41<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/20_training.txt.dat; 5:
+starting: 20_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 25 ; started at: 2025-06-12 01:53:43<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 37 ; started at: 2025-06-12 01:53:47<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 43 ; started at: 2025-06-12 01:53:49<<<<UNSATISFIABLE>>>>
+starting: 20_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 46 ; started at: 2025-06-12 01:53:51<<<<SATISFIABLE>>>>
+starting: 20_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 44 ; started at: 2025-06-12 01:53:52<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/25_training.txt.dat; 1:
+starting: 25_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 107 ; started at: 2025-06-12 01:53:55<<<<TIMEOUT>>>>
+starting: 25_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 110 ; started at: 2025-06-12 01:58:56<<<<UNSATISFIABLE>>>>
+starting: 25_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 111 ; started at: 2025-06-12 01:59:00<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/25_training.txt.dat; 2:
+starting: 25_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 109 ; started at: 2025-06-12 01:59:49<<<<TIMEOUT>>>>
+starting: 25_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 111 ; started at: 2025-06-12 02:04:49<<<<SATISFIABLE>>>>
+starting: 25_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 110 ; started at: 2025-06-12 02:05:24<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/25_training.txt.dat; 3:
+starting: 25_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 112 ; started at: 2025-06-12 02:05:29<<<<TIMEOUT>>>>
+starting: 25_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 115 ; started at: 2025-06-12 02:10:29<<<<SATISFIABLE>>>>
+starting: 25_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 113 ; started at: 2025-06-12 02:11:43<<<<TIMEOUT>>>>
+starting: 25_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 114 ; started at: 2025-06-12 02:16:43<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/25_training.txt.dat; 4:
+starting: 25_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 108 ; started at: 2025-06-12 02:21:44<<<<TIMEOUT>>>>
+starting: 25_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 110 ; started at: 2025-06-12 02:26:44<<<<SATISFIABLE>>>>
+starting: 25_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 109 ; started at: 2025-06-12 02:27:20<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/25_training.txt.dat; 5:
+starting: 25_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 106 ; started at: 2025-06-12 02:27:43<<<<TIMEOUT>>>>
+starting: 25_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 108 ; started at: 2025-06-12 02:32:44<<<<SATISFIABLE>>>>
+starting: 25_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 107 ; started at: 2025-06-12 02:32:57<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/30_training.txt.dat; 1:
+starting: 30_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 77 ; started at: 2025-06-12 02:38:00<<<<SATISFIABLE>>>>
+starting: 30_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 74 ; started at: 2025-06-12 02:40:24<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 75 ; started at: 2025-06-12 02:45:24<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 76 ; started at: 2025-06-12 02:50:24<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/30_training.txt.dat; 2:
+starting: 30_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 69 ; started at: 2025-06-12 02:55:25<<<<SATISFIABLE>>>>
+starting: 30_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 66 ; started at: 2025-06-12 03:00:02<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 67 ; started at: 2025-06-12 03:05:02<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/30_training.txt.dat; 3:
+starting: 30_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 66 ; started at: 2025-06-12 03:06:59<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 70 ; started at: 2025-06-12 03:11:59<<<<SATISFIABLE>>>>
+starting: 30_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 68 ; started at: 2025-06-12 03:12:39<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 69 ; started at: 2025-06-12 03:17:39<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/30_training.txt.dat; 4:
+starting: 30_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 87 ; started at: 2025-06-12 03:22:40<<<<SATISFIABLE>>>>
+starting: 30_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 84 ; started at: 2025-06-12 03:25:08<<<<SATISFIABLE>>>>
+starting: 30_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 82 ; started at: 2025-06-12 03:28:39<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 83 ; started at: 2025-06-12 03:33:39<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/30_training.txt.dat; 5:
+starting: 30_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 69 ; started at: 2025-06-12 03:36:47<<<<SATISFIABLE>>>>
+starting: 30_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 65 ; started at: 2025-06-12 03:40:45<<<<UNSATISFIABLE>>>>
+starting: 30_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 67 ; started at: 2025-06-12 03:40:57<<<<TIMEOUT>>>>
+starting: 30_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 68 ; started at: 2025-06-12 03:45:57<<<<UNSATISFIABLE>>>>
+../FlexFringe/data/staminadata/35_training.txt.dat; 1:
+starting: 35_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 62 ; started at: 2025-06-12 03:46:35<<<<SATISFIABLE>>>>
+starting: 35_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 59 ; started at: 2025-06-12 03:49:50<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 60 ; started at: 2025-06-12 03:54:50<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 61 ; started at: 2025-06-12 03:59:50<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/35_training.txt.dat; 2:
+starting: 35_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 65 ; started at: 2025-06-12 04:04:51<<<<SATISFIABLE>>>>
+starting: 35_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 62 ; started at: 2025-06-12 04:06:31<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 63 ; started at: 2025-06-12 04:11:32<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/35_training.txt.dat; 3:
+starting: 35_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 63 ; started at: 2025-06-12 04:14:05<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 67 ; started at: 2025-06-12 04:19:05<<<<SATISFIABLE>>>>
+starting: 35_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 65 ; started at: 2025-06-12 04:19:37<<<<SATISFIABLE>>>>
+starting: 35_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 64 ; started at: 2025-06-12 04:21:13<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/35_training.txt.dat; 4:
+starting: 35_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 62 ; started at: 2025-06-12 04:26:14<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 65 ; started at: 2025-06-12 04:31:14<<<<SATISFIABLE>>>>
+starting: 35_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 63 ; started at: 2025-06-12 04:32:44<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/35_training.txt.dat; 5:
+starting: 35_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 63 ; started at: 2025-06-12 04:37:11<<<<SATISFIABLE>>>>
+starting: 35_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 60 ; started at: 2025-06-12 04:39:14<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 61 ; started at: 2025-06-12 04:44:14<<<<TIMEOUT>>>>
+starting: 35_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 62 ; started at: 2025-06-12 04:49:14<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/40_training.txt.dat; 1:
+starting: 40_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 32 ; started at: 2025-06-12 04:51:18<<<<SATISFIABLE>>>>
+starting: 40_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 28 ; started at: 2025-06-12 04:54:52<<<<UNSATISFIABLE>>>>
+starting: 40_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 30 ; started at: 2025-06-12 04:55:06<<<<TIMEOUT>>>>
+starting: 40_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 31 ; started at: 2025-06-12 05:00:06<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/40_training.txt.dat; 2:
+starting: 40_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 31 ; started at: 2025-06-12 05:05:06<<<<TIMEOUT>>>>
+starting: 40_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 35 ; started at: 2025-06-12 05:10:07<<<<SATISFIABLE>>>>
+starting: 40_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 33 ; started at: 2025-06-12 05:11:13<<<<SATISFIABLE>>>>
+starting: 40_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 32 ; started at: 2025-06-12 05:12:30<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/40_training.txt.dat; 3:
+starting: 40_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 31 ; started at: 2025-06-12 05:14:11<<<<SATISFIABLE>>>>
+starting: 40_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 27 ; started at: 2025-06-12 05:15:21<<<<TIMEOUT>>>>
+starting: 40_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 29 ; started at: 2025-06-12 05:20:21<<<<TIMEOUT>>>>
+starting: 40_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 30 ; started at: 2025-06-12 05:25:21<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/40_training.txt.dat; 4:
+starting: 40_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 31 ; started at: 2025-06-12 05:26:43<<<<SATISFIABLE>>>>
+starting: 40_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 27 ; started at: 2025-06-12 05:27:54<<<<TIMEOUT>>>>
+starting: 40_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 29 ; started at: 2025-06-12 05:32:54<<<<TIMEOUT>>>>
+starting: 40_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 30 ; started at: 2025-06-12 05:37:54<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/40_training.txt.dat; 5:
+starting: 40_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 32 ; started at: 2025-06-12 05:39:50<<<<SATISFIABLE>>>>
+starting: 40_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 28 ; started at: 2025-06-12 05:43:25<<<<UNSATISFIABLE>>>>
+starting: 40_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 30 ; started at: 2025-06-12 05:43:37<<<<UNSATISFIABLE>>>>
+starting: 40_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 31 ; started at: 2025-06-12 05:48:00<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/45_training.txt.dat; 1:
+starting: 45_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 111 ; started at: 2025-06-12 05:49:37<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/45_training.txt.dat; 2:
+starting: 45_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 105 ; started at: 2025-06-12 05:53:07<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/45_training.txt.dat; 3:
+starting: 45_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 105 ; started at: 2025-06-12 05:56:39<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/45_training.txt.dat; 4:
+starting: 45_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 106 ; started at: 2025-06-12 05:58:00<<<<TIMEOUT>>>>
+starting: 45_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 107 ; started at: 2025-06-12 06:03:00<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/45_training.txt.dat; 5:
+starting: 45_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 111 ; started at: 2025-06-12 06:03:32<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/50_training.txt.dat; 1:
+starting: 50_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 66 ; started at: 2025-06-12 06:04:24<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/50_training.txt.dat; 2:
+starting: 50_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 67 ; started at: 2025-06-12 06:06:43<<<<SATISFIABLE>>>>
+starting: 50_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 66 ; started at: 2025-06-12 06:08:21<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/50_training.txt.dat; 3:
+starting: 50_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 68 ; started at: 2025-06-12 06:13:23<<<<SATISFIABLE>>>>
+starting: 50_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 67 ; started at: 2025-06-12 06:14:04<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/50_training.txt.dat; 4:
+starting: 50_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 68 ; started at: 2025-06-12 06:16:29<<<<SATISFIABLE>>>>
+starting: 50_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 67 ; started at: 2025-06-12 06:18:42<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/50_training.txt.dat; 5:
+starting: 50_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 67 ; started at: 2025-06-12 06:21:12<<<<UNSATISFIABLE>>>>
+starting: 50_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 68 ; started at: 2025-06-12 06:21:17<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/55_training.txt.dat; 1:
+starting: 55_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 34 ; started at: 2025-06-12 06:22:22<<<<UNSATISFIABLE>>>>
+starting: 55_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 35 ; started at: 2025-06-12 06:22:23<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/55_training.txt.dat; 2:
+starting: 55_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 31 ; started at: 2025-06-12 06:22:32<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 29 ; started at: 2025-06-12 06:24:31<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 28 ; started at: 2025-06-12 06:27:00<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/55_training.txt.dat; 3:
+starting: 55_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 32 ; started at: 2025-06-12 06:29:42<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 30 ; started at: 2025-06-12 06:30:41<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 29 ; started at: 2025-06-12 06:32:10<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/55_training.txt.dat; 4:
+starting: 55_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 31 ; started at: 2025-06-12 06:37:10<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 29 ; started at: 2025-06-12 06:39:19<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 28 ; started at: 2025-06-12 06:41:19<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/55_training.txt.dat; 5:
+starting: 55_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 32 ; started at: 2025-06-12 06:45:01<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 29 ; started at: 2025-06-12 06:46:00<<<<SATISFIABLE>>>>
+starting: 55_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 27 ; started at: 2025-06-12 06:47:52<<<<TIMEOUT>>>>
+starting: 55_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 28 ; started at: 2025-06-12 06:52:52<<<<SATISFIABLE>>>>
+<<<<<<stamina_exp_binsearch_dfabound_apta=2000_log.txt; apta bound:2000>>>>>>
+../FlexFringe/data/staminadata/5_training.txt.dat; 1:
+starting: 5_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 57 ; started at: 2025-06-12 12:23:48<<<<<<stamina_exp_binsearch_dfabound_apta=2000_log.txt; apta bound:2000>>>>>>
+../FlexFringe/data/staminadata/60_training.txt.dat; 1:
+starting: 60_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 22 ; started at: 2025-06-12 12:24:53<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 20 ; started at: 2025-06-12 12:25:39<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 19 ; started at: 2025-06-12 12:26:57<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/60_training.txt.dat; 2:
+starting: 60_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 22 ; started at: 2025-06-12 12:29:52<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 20 ; started at: 2025-06-12 12:30:36<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 19 ; started at: 2025-06-12 12:32:02<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/60_training.txt.dat; 3:
+starting: 60_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 21 ; started at: 2025-06-12 12:34:52<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 19 ; started at: 2025-06-12 12:36:14<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 18 ; started at: 2025-06-12 12:37:49<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/60_training.txt.dat; 4:
+starting: 60_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 22 ; started at: 2025-06-12 12:42:49<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 20 ; started at: 2025-06-12 12:46:26<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 19 ; started at: 2025-06-12 12:49:44<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/60_training.txt.dat; 5:
+starting: 60_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 22 ; started at: 2025-06-12 12:54:45<<<<SATISFIABLE>>>>
+starting: 60_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 20 ; started at: 2025-06-12 12:55:37<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/65_training.txt.dat; 1:
+starting: 65_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 47 ; started at: 2025-06-12 12:58:38<<<<UNSATISFIABLE>>>>
+starting: 65_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 48 ; started at: 2025-06-12 12:58:44<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/65_training.txt.dat; 2:
+starting: 65_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 47 ; started at: 2025-06-12 13:00:05<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/65_training.txt.dat; 3:
+starting: 65_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 51 ; started at: 2025-06-12 13:01:21<<<<SATISFIABLE>>>>
+starting: 65_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 50 ; started at: 2025-06-12 13:01:26<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/65_training.txt.dat; 4:
+starting: 65_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 47 ; started at: 2025-06-12 13:03:47<<<<SATISFIABLE>>>>
+starting: 65_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 46 ; started at: 2025-06-12 13:04:33<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/65_training.txt.dat; 5:
+starting: 65_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 49 ; started at: 2025-06-12 13:06:54<<<<UNSATISFIABLE>>>>
+starting: 65_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 50 ; started at: 2025-06-12 13:07:01<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/70_training.txt.dat; 1:
+starting: 70_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 25 ; started at: 2025-06-12 13:08:46<<<<SATISFIABLE>>>>
+starting: 70_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 24 ; started at: 2025-06-12 13:09:37<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/70_training.txt.dat; 2:
+starting: 70_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 32 ; started at: 2025-06-12 13:11:09<<<<SATISFIABLE>>>>
+starting: 70_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 31 ; started at: 2025-06-12 13:11:11<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/70_training.txt.dat; 3:
+starting: 70_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 27 ; started at: 2025-06-12 13:13:12<<<<UNSATISFIABLE>>>>
+starting: 70_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 28 ; started at: 2025-06-12 13:13:13<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/70_training.txt.dat; 4:
+starting: 70_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 28 ; started at: 2025-06-12 13:13:22<<<<TIMEOUT>>>>
+starting: 70_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 29 ; started at: 2025-06-12 13:18:22<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/70_training.txt.dat; 5:
+starting: 70_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 28 ; started at: 2025-06-12 13:18:25<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/75_training.txt.dat; 1:
+starting: 75_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 27 ; started at: 2025-06-12 13:20:04<<<<UNSATISFIABLE>>>>
+starting: 75_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 28 ; started at: 2025-06-12 13:20:16<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/75_training.txt.dat; 2:
+starting: 75_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 27 ; started at: 2025-06-12 13:20:39<<<<TIMEOUT>>>>
+starting: 75_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 28 ; started at: 2025-06-12 13:25:40<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/75_training.txt.dat; 3:
+starting: 75_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 27 ; started at: 2025-06-12 13:25:41<<<<TIMEOUT>>>>
+starting: 75_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 28 ; started at: 2025-06-12 13:30:41<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/75_training.txt.dat; 4:
+starting: 75_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 26 ; started at: 2025-06-12 13:32:08<<<<UNSATISFIABLE>>>>
+starting: 75_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 27 ; started at: 2025-06-12 13:32:13<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/75_training.txt.dat; 5:
+starting: 75_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 28 ; started at: 2025-06-12 13:33:26<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/80_training.txt.dat; 1:
+starting: 80_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 16 ; started at: 2025-06-12 13:35:44<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 14 ; started at: 2025-06-12 13:35:57<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 13 ; started at: 2025-06-12 13:36:55<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/80_training.txt.dat; 2:
+starting: 80_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 16 ; started at: 2025-06-12 13:38:25<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 14 ; started at: 2025-06-12 13:38:27<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/80_training.txt.dat; 3:
+starting: 80_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 15 ; started at: 2025-06-12 13:39:55<<<<UNSATISFIABLE>>>>
+starting: 80_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 16 ; started at: 2025-06-12 13:39:58<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/80_training.txt.dat; 4:
+starting: 80_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 17 ; started at: 2025-06-12 13:40:01<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 15 ; started at: 2025-06-12 13:40:06<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 14 ; started at: 2025-06-12 13:41:13<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/80_training.txt.dat; 5:
+starting: 80_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 17 ; started at: 2025-06-12 13:42:39<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 15 ; started at: 2025-06-12 13:42:46<<<<SATISFIABLE>>>>
+starting: 80_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 14 ; started at: 2025-06-12 13:43:44<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/85_training.txt.dat; 1:
+starting: 85_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 36 ; started at: 2025-06-12 13:46:02<<<<SATISFIABLE>>>>
+starting: 85_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 35 ; started at: 2025-06-12 13:46:23<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/85_training.txt.dat; 2:
+starting: 85_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 35 ; started at: 2025-06-12 13:51:30<<<<SATISFIABLE>>>>
+starting: 85_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 34 ; started at: 2025-06-12 13:51:47<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/85_training.txt.dat; 3:
+starting: 85_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 35 ; started at: 2025-06-12 13:52:17<<<<UNSATISFIABLE>>>>
+starting: 85_training.txt.dat_train_3.dat : fold: 3 ; dfa_bound: 36 ; started at: 2025-06-12 13:52:36<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/85_training.txt.dat; 4:
+starting: 85_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 35 ; started at: 2025-06-12 13:52:57<<<<TIMEOUT>>>>
+starting: 85_training.txt.dat_train_4.dat : fold: 4 ; dfa_bound: 36 ; started at: 2025-06-12 13:57:58<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/85_training.txt.dat; 5:
+starting: 85_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 38 ; started at: 2025-06-12 13:58:16<<<<SATISFIABLE>>>>
+starting: 85_training.txt.dat_train_5.dat : fold: 5 ; dfa_bound: 37 ; started at: 2025-06-12 13:58:35<<<<TIMEOUT>>>>
+../FlexFringe/data/staminadata/90_training.txt.dat; 1:
+starting: 90_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 25 ; started at: 2025-06-12 14:03:49<<<<TIMEOUT>>>>
+starting: 90_training.txt.dat_train_1.dat : fold: 1 ; dfa_bound: 26 ; started at: 2025-06-12 14:08:50<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/90_training.txt.dat; 2:
+starting: 90_training.txt.dat_train_2.dat : fold: 2 ; dfa_bound: 26 ; started at: 2025-06-12 14:09:00

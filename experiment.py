@@ -49,10 +49,10 @@ def run_kfold(*args, **kwargs):
                 kwargs["satoffset"] = offsets[i]
                 kwargs["dfabound"] = dfa_bounds[i]
                 kwargs["aptabound"] = apta_bounds[i]
-                data, state_count = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name,
+                data, state_count, _ = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name,
                                                           flexfringe_root_dir, **kwargs)
             else:
-                data, state_count = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name,
+                data, state_count, _ = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name,
                                                           flexfringe_root_dir, **kwargs)
 
             state_counts.append(state_count)
@@ -101,7 +101,7 @@ def run(*args, **kwargs):
         with open("run_dir/" + train_file_name + "_temp.dat", "w") as f:
             f.write(train_data)
 
-        data, state_count = flexfringe.flexfringe(dfa_identification_dir + "run_dir/" + train_file_name + "_temp.dat",
+        data, state_count, _ = flexfringe.flexfringe(dfa_identification_dir + "run_dir/" + train_file_name + "_temp.dat",
                                                   flexfringe_root_dir, **kwargs)
         flexfringe.show(data, "some_name")
         start_node_id, m, data_2 = flexfringe.load_model("run_dir/" + train_file_name + "_temp.dat.ff.final.json")

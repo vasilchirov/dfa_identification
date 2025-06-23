@@ -8,7 +8,7 @@ from collections import defaultdict
 import count_nodes
 
 
-def flexfringe(*args, **kwargs) -> tuple[str | None, int]:
+def flexfringe(*args, **kwargs) -> tuple[str | None, int, bool]:
     """Wrapper to call the FlexFringe binary
 
      Keyword arguments:
@@ -16,7 +16,7 @@ def flexfringe(*args, **kwargs) -> tuple[str | None, int]:
     - position 1 -- location of the FlexFringe root directory (e.g. ../Flexfringe/)
     - kwargs -- list of key=value arguments to pass as command line arguments
 
-    :return: tuple of: resulting dfa as str, number of states in the dfa
+    :return: tuple of: resulting dfa as str, number of states in the dfa, satisfiable or not (false when satsolver mode is not selected)
     """
     command = ["--help"]
 
@@ -25,31 +25,41 @@ def flexfringe(*args, **kwargs) -> tuple[str | None, int]:
         for key in kwargs:
             command += ["--" + key + "=" + kwargs[key]]
 
-    result = subprocess.run(["./build/flexfringe", ] + command + [args[0]], stdout=subprocess.PIPE,
-                            stderr=subprocess.PIPE, universal_newlines=True, cwd=args[1])
-    print(result.returncode, result.stdout, result.stderr)
-
-    if "mode" in kwargs.keys() and kwargs["mode"] == "satsolver":
-        with open("logs/stamina_experiment_updated_log.txt", "a") as f:
-            if "SATISFIABLE" in result.stderr.split("\n"):
-                print("<<<<SATISFIABLE>>>>")
-                f.write("<<<<SATISFIABLE>>>>\n")
-            elif "UNSATISFIABLE" in result.stderr.split("\n"):
-                print("<<<<UNSATISFIABLE>>>>")
-                f.write("<<<<UNSATISFIABLE>>>>\n")
-            else:
-                print("<<<<NEITHER?>>>>")
-                f.write("<<<<NEITHER?>>>>\n")
-
     try:
-        with open(args[1] + args[0] + ".ff.final.dot") as fh:
-            state_count = count_nodes.count_states(args[1] + args[0] + ".ff.final.dot")
-            print(state_count)
-            return fh.read(), state_count
-    except FileNotFoundError as e:
-        print(e)
+        result = subprocess.run(["./build/flexfringe", ] + command + [args[0]], stdout=subprocess.PIPE,
+                                stderr=subprocess.PIPE, universal_newlines=True, cwd=args[1], timeout=300)
 
-    return None, 0
+        print(result.returncode, result.stdout, result.stderr)
+
+        is_satisfiable = False
+
+        if "mode" in kwargs.keys() and kwargs["mode"] == "satsolver":
+            with open("logs/DELETE_tracker_binsearch_exp_2000.txt", "a") as f:
+                if "SATISFIABLE" in result.stderr.split("\n"):
+                    print("<<<<SATISFIABLE>>>>")
+                    f.write("<<<<SATISFIABLE>>>>\n")
+                    is_satisfiable = True
+                elif "UNSATISFIABLE" in result.stderr.split("\n"):
+                    print("<<<<UNSATISFIABLE>>>>")
+                    f.write("<<<<UNSATISFIABLE>>>>\n")
+                else:
+                    print("<<<<NEITHER?>>>>")
+                    f.write("<<<<NEITHER?>>>>\n")
+
+        try:
+            with open(args[1] + args[0] + ".ff.final.dot") as fh:
+                state_count = count_nodes.count_states(args[1] + args[0] + ".ff.final.dot")
+                print(state_count)
+                return fh.read(), state_count, is_satisfiable
+        except FileNotFoundError as e:
+            print(e)
+
+        return None, 0, is_satisfiable
+    except subprocess.TimeoutExpired:
+        print("<<<<TIMEOUT>>>>")
+        with open("logs/DELETE_tracker_binsearch_exp_2000.txt", "a") as f:
+            f.write("<<<<TIMEOUT>>>>\n")
+        return "timeout", -1, False
 
 
 def show(data, filename="output_DFA"):
@@ -71,6 +81,8 @@ def load_model(model_file_json: str):
 
        Keyword arguments:
        model_file_json -- path to the json model file
+
+       :return: tuple[start_node, dfa as dict, json as dict]
       """
     with open(model_file_json) as fh:
         data = fh.read()
@@ -124,8 +136,10 @@ def traverse(start_node_id, dfa, sequence):
 
     for event in sequence.split(" "):
         sym = event.split(":")[0]
-
-        state = dfa[state][sym]
+        try:
+            state = dfa[state][sym]
+        except KeyError:
+            return False
 
         counter += 1
         # if state == "":

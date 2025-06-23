@@ -1,0 +1,1 @@
+DELETE_stamina_exp_binsearch_satoffset_apta=1000_log.txt; apta bound:1000

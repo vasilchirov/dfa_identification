@@ -39,3 +39,20 @@ def prepare_test_set(test: list[str], train: list[str]):
         test_set.add(trace)
 
     return new_test
+
+def divide_dataset(filename: str):
+    with open(filename, "r") as file:
+        data = file.read()
+
+    rows = data.split("\n")
+
+    size = rows[0].split(" ")[0]
+    alph_size = rows[0].split(" ")[1]
+
+    test_set: str = "\n".join([f"1500 {alph_size}"] + rows[1:1501])
+    train_set: str = "\n".join([f"{int(size) - 1500} {alph_size}"] + rows[1501:])
+
+    with open("generated-datasets/" + filename.split("/")[-1] + "_test.dat", "w") as file:
+        file.write(test_set)
+    with open("generated-datasets/" + filename.split("/")[-1] + "_train.dat", "w") as file:
+        file.write(train_set)

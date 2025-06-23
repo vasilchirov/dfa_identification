@@ -1,0 +1,5 @@
+<<<<<<DELETE_stamina_exp_binsearch_satoffset_apta=1000_log.txt; apta bound:1000>>>>>>
+../FlexFringe/data/staminadata/95_training.txt.dat; 1:
+starting: 95_training.txt.dat_train_1.dat : fold: 1 ; satoffset: 0 ; range: [15;15] ; started at: 2025-06-23 19:34:09<<<<SATISFIABLE>>>>
+../FlexFringe/data/staminadata/95_training.txt.dat; 2:
+starting: 95_training.txt.dat_train_2.dat : fold: 2 ; satoffset: 0 ; range: [15;15] ; started at: 2025-06-23 19:34:13

@@ -1,0 +1,261 @@
+stamina_exp_binsearch_dfabound_apta=1500_log.txt; apta bound:1500
+../FlexFringe/data/staminadata/5_training.txt.dat
+state count avarage: 60.4
+state_counts: [60, 58, 62, 60, 62]
+edsm_state_counts: [64, 60, 67, 63, 64]
+edsm_state_counts_2000: [51, 51, 51, 51, 50]
+final dfa_bounds: [57, 55, 59, 57, 59]
+bcrs list edsm: [0.9473684210526316, 1.0, 1.0, 0.9894736842105264, 0.9824561403508771]
+bcrs list: [0.952, 0.9705882352941176, 1.0, 0.9894736842105264, 0.9702354509107063]
+bcr edsm: 0.9838596491228071
+bcr: 0.9764594740830701
+is_satisfiable: [True, True, True, True, True]
+time: 201.55734649999067
+//////////////////////////////
+../FlexFringe/data/staminadata/10_training.txt.dat
+state count avarage: 50.4
+state_counts: [45, 45, 72, 45, 45]
+edsm_state_counts: [45, 45, 73, 45, 45]
+edsm_state_counts_2000: [36, 36, 37, 36, 36]
+final dfa_bounds: [45, 45, 69, 45, 45]
+bcrs list edsm: [0.975609756097561, 1.0, 0.8995555555555556, 1.0, 0.9787234042553191]
+bcrs list: [0.975609756097561, 1.0, 0.9182608695652175, 1.0, 0.9787234042553191]
+bcr edsm: 0.9707777431816872
+bcr: 0.9745188059836195
+is_satisfiable: [True, True, True, True, True]
+time: 68.69474924600217
+//////////////////////////////
+../FlexFringe/data/staminadata/15_training.txt.dat
+state count avarage: 84.0
+state_counts: [84, 87, 84, 77, 88]
+edsm_state_counts: [84, 90, 87, 82, 91]
+edsm_state_counts_2000: [46, 52, 47, 45, 52]
+final dfa_bounds: [84, 84, 81, 74, 85]
+bcrs list edsm: [0.4528301886792453, 0.6779661016949152, 0.5233644859813084, 0.47619047619047616, 0.48780487804878053]
+bcrs list: [0.4528301886792453, 0.6779661016949152, 0.5233644859813084, 0.5217391304347826, 0.48780487804878053]
+bcr edsm: 0.5236312261189451
+bcr: 0.5327409569678064
+is_satisfiable: [True, True, True, True, True]
+time: 445.63208407798083
+//////////////////////////////
+../FlexFringe/data/staminadata/20_training.txt.dat
+state count avarage: 47.4
+state_counts: [48, 47, 48, 50, 44]
+edsm_state_counts: [50, 47, 52, 51, 49]
+edsm_state_counts_2000: [3, 2, 3, 2, 3]
+final dfa_bounds: [45, 47, 45, 47, 41]
+bcrs list edsm: [0.5714285714285715, 0.4, 0.4444444444444444, 0.3333333333333333, 0.25]
+bcrs list: [0.5714285714285715, 0.36363636363636365, 0.4444444444444444, 0.25, 0.28571428571428575]
+bcr edsm: 0.39984126984126983
+bcr: 0.3830447330447331
+is_satisfiable: [True, True, True, True, True]
+time: 89.03533749500639
+//////////////////////////////
+../FlexFringe/data/staminadata/25_training.txt.dat
+state count avarage: 111.0
+state_counts: [111, 111, 115, 110, 108]
+edsm_state_counts: [112, 112, 117, 111, 110]
+edsm_state_counts_2000: [108, 109, 112, 108, 106]
+final dfa_bounds: [111, 111, 115, 110, 108]
+bcrs list edsm: [0.6803601575689364, 0.6668553637135578, 0.7188968975242871, 0.6507713884992988, 0.6369469773725093]
+bcrs list: [0.6883152928115459, 0.6742889012827664, 0.7085714285714285, 0.6361468764902242, 0.6512243547319656]
+bcr edsm: 0.670766156935718
+bcr: 0.6717093707775861
+is_satisfiable: [True, True, True, True, True]
+time: 1151.2760462170118
+//////////////////////////////
+../FlexFringe/data/staminadata/30_training.txt.dat
+state count avarage: 77.6
+state_counts: [80, 70, 72, 91, 75]
+edsm_state_counts: [81, 75, 73, 92, 76]
+edsm_state_counts_2000: [76, 66, 62, 88, 67]
+final dfa_bounds: [77, 67, 69, 88, 75]
+bcrs list edsm: [0.6015164279696714, 0.7231788079470198, 0.6910299003322259, 0.4692737430167598, 0.5877862595419847]
+bcrs list: [0.6473807662236122, 0.6742370475514549, 0.7024390243902439, 0.4369414101290963, 0.5622489959839357]
+bcr edsm: 0.6145570277615324
+bcr: 0.6046494488556686
+is_satisfiable: [True, True, True, True, True]
+time: 2338.6845209310122
+//////////////////////////////
+../FlexFringe/data/staminadata/35_training.txt.dat
+state count avarage: 66.8
+state_counts: [66, 66, 67, 68, 67]
+edsm_state_counts: [67, 70, 70, 68, 69]
+edsm_state_counts_2000: [64, 63, 61, 60, 63]
+final dfa_bounds: [66, 63, 64, 68, 65]
+bcrs list edsm: [0.5180533751962323, 0.35714285714285715, 0.5110565110565112, 0.5683355886332883, 0.5172413793103448]
+bcrs list: [0.5287713841368585, 0.4150943396226416, 0.5110565110565112, 0.5683355886332883, 0.4615384615384615]
+bcr edsm: 0.4943659422678467
+bcr: 0.4969592569975522
+is_satisfiable: [True, True, True, True, True]
+time: 2338.3964627189853
+//////////////////////////////
+../FlexFringe/data/staminadata/40_training.txt.dat
+state count avarage: 34.2
+state_counts: [36, 35, 33, 33, 34]
+edsm_state_counts: [39, 39, 38, 38, 40]
+edsm_state_counts_2000: [33, 29, 29, 28, 27]
+final dfa_bounds: [33, 32, 30, 30, 31]
+bcrs list edsm: [0.4897959183673469, 0.46511627906976744, 0.4081632653061225, 0.5454545454545454, 0.5945945945945945]
+bcrs list: [0.39999999999999997, 0.7272727272727272, 0.2978723404255319, 0.5, 0.4938271604938272]
+bcr edsm: 0.5006249205584753
+bcr: 0.4837944456384172
+is_satisfiable: [True, True, True, True, True]
+time: 2829.3128757030063
+//////////////////////////////
+../FlexFringe/data/staminadata/45_training.txt.dat
+state count avarage: 108.2
+state_counts: [111, 106, 106, 107, 111]
+edsm_state_counts: [111, 106, 106, 107, 112]
+edsm_state_counts_2000: [111, 106, 106, 106, 111]
+final dfa_bounds: [111, 106, 106, 107, 111]
+bcrs list edsm: [0.6399499060738886, 0.5946902654867257, 0.626972010178117, 0.642491724345471, 0.6132952108649036]
+bcrs list: [0.6291037351903772, 0.5883408071748879, 0.6428925210500248, 0.6410352870363405, 0.6153846153846154]
+bcr edsm: 0.6234798233898211
+bcr: 0.6233513931672492
+is_satisfiable: [True, True, True, True, True]
+time: 638.7923563759832
+//////////////////////////////
+../FlexFringe/data/staminadata/50_training.txt.dat
+state count avarage: 68.0
+state_counts: [66, 68, 70, 68, 68]
+edsm_state_counts: [66, 68, 70, 69, 69]
+edsm_state_counts_2000: [66, 68, 67, 68, 67]
+final dfa_bounds: [66, 68, 67, 68, 68]
+bcrs list edsm: [0.5468678555098307, 0.510411622276029, 0.5208333333333334, 0.5966850828729282, 0.5076430856736579]
+bcrs list: [0.5901639344262295, 0.510513447432763, 0.5314799672935404, 0.6086956521739131, 0.498220640569395]
+bcr edsm: 0.5364881959331558
+bcr: 0.5478147283791682
+is_satisfiable: [True, True, True, True, True]
+time: 613.1893869040068
+//////////////////////////////
+../FlexFringe/data/staminadata/55_training.txt.dat
+state count avarage: 33.8
+state_counts: [35, 34, 33, 33, 34]
+edsm_state_counts: [36, 35, 35, 35, 37]
+edsm_state_counts_2000: [32, 32, 30, 33, 31]
+final dfa_bounds: [35, 34, 30, 33, 31]
+bcrs list edsm: [0.4158415841584159, 0.576271186440678, 0.40490797546012275, 0.6448598130841122, 0.585]
+bcrs list: [0.4455611390284757, 0.4615384615384615, 0.5040916530278232, 0.4736842105263157, 0.38338658146964855]
+bcr edsm: 0.5253761118286657
+bcr: 0.4536524091181449
+is_satisfiable: [True, True, True, True, True]
+time: 620.113565260981
+//////////////////////////////
+../FlexFringe/data/staminadata/60_training.txt.dat
+state count avarage: 23.4
+state_counts: [24, 23, 23, 23, 24]
+edsm_state_counts: [25, 26, 24, 25, 25]
+edsm_state_counts_2000: [21, 20, 22, 20, 21]
+final dfa_bounds: [21, 20, 23, 23, 24]
+bcrs list edsm: [0.64, 0.3181818181818182, 0.3308270676691729, 0.40875912408759124, 0.41379310344827586]
+bcrs list: [0.6666666666666666, 0.40384615384615385, 0.3225806451612903, 0.40875912408759124, 0.47244094488188976]
+bcr edsm: 0.4223122226773716
+bcr: 0.4548587069287183
+is_satisfiable: [True, True, True, True, True]
+time: 1097.4706965530058
+//////////////////////////////
+../FlexFringe/data/staminadata/65_training.txt.dat
+state count avarage: 48.6
+state_counts: [48, 47, 50, 48, 50]
+edsm_state_counts: [48, 48, 52, 48, 50]
+edsm_state_counts_2000: [48, 47, 50, 48, 50]
+final dfa_bounds: [48, 47, 50, 48, 50]
+bcrs list edsm: [0.6558251133031192, 0.6860986547085203, 0.6562009419152275, 0.6581560283687944, 0.608294930875576]
+bcrs list: [0.6516223794899185, 0.6863404308305318, 0.6909364800401707, 0.6613838969859912, 0.6033701336432308]
+bcr edsm: 0.6529151338342476
+bcr: 0.6587306641979686
+is_satisfiable: [True, True, True, True, True]
+time: 635.5627774170134
+//////////////////////////////
+../FlexFringe/data/staminadata/70_training.txt.dat
+state count avarage: 28.2
+state_counts: [25, 31, 28, 29, 28]
+edsm_state_counts: [27, 33, 29, 29, 29]
+edsm_state_counts_2000: [25, 31, 26, 28, 28]
+final dfa_bounds: [25, 31, 28, 29, 28]
+bcrs list edsm: [0.7904, 0.5606557377049181, 0.5687074829931973, 0.5725646123260438, 0.7317073170731707]
+bcrs list: [0.8216216216216217, 0.52, 0.5687074829931973, 0.5797950219619327, 0.7352112676056338]
+bcr edsm: 0.6448070300194659
+bcr: 0.6450670788364771
+is_satisfiable: [True, True, True, True, True]
+time: 716.8041231100215
+//////////////////////////////
+../FlexFringe/data/staminadata/75_training.txt.dat
+state count avarage: 27.8
+state_counts: [28, 28, 28, 27, 28]
+edsm_state_counts: [28, 28, 28, 27, 29]
+edsm_state_counts_2000: [27, 27, 28, 27, 28]
+final dfa_bounds: [28, 28, 28, 27, 28]
+bcrs list edsm: [0.5439330543933055, 0.6348547717842324, 0.5442764578833694, 0.5179542981501633, 0.5714285714285715]
+bcrs list: [0.5591397849462365, 0.6181818181818182, 0.4745762711864407, 0.4837209302325581, 0.588235294117647]
+bcr edsm: 0.5624894307279285
+bcr: 0.5447708197329402
+is_satisfiable: [True, True, True, True, True]
+time: 620.0715694059909
+//////////////////////////////
+../FlexFringe/data/staminadata/80_training.txt.dat
+state count avarage: 17.4
+state_counts: [16, 18, 16, 18, 19]
+edsm_state_counts: [19, 18, 17, 21, 20]
+edsm_state_counts_2000: [13, 15, 15, 15, 16]
+final dfa_bounds: [13, 15, 16, 15, 16]
+bcrs list edsm: [0.5691056910569107, 0.5490196078431373, 0.6271777003484321, 0.5325443786982248, 0.5]
+bcrs list: [0.5, 0.5, 0.583941605839416, 0.6185567010309277, 0.5060240963855421]
+bcr edsm: 0.555569475589341
+bcr: 0.5417044806511772
+is_satisfiable: [True, True, True, True, True]
+time: 325.209968752024
+//////////////////////////////
+../FlexFringe/data/staminadata/85_training.txt.dat
+state count avarage: 36.0
+state_counts: [36, 34, 36, 36, 38]
+edsm_state_counts: [37, 36, 37, 36, 39]
+edsm_state_counts_2000: [36, 34, 35, 35, 37]
+final dfa_bounds: [36, 34, 36, 36, 38]
+bcrs list edsm: [0.6410684474123539, 0.6666666666666665, 0.6464143426294822, 0.7051658966820664, 0.6803800082610492]
+bcrs list: [0.6561914841651063, 0.6681833501853724, 0.6593406593406593, 0.7104988520141934, 0.7011401959209893]
+bcr edsm: 0.6679390723303237
+bcr: 0.6790709083252641
+is_satisfiable: [True, True, True, True, True]
+time: 727.4270246289962
+//////////////////////////////
+../FlexFringe/data/staminadata/90_training.txt.dat
+state count avarage: 25
+state_counts: [26, -1, 24, 24, 26]
+edsm_state_counts: [26, 26, 25, 24, 26]
+edsm_state_counts_2000: [25, 26, 23, 23, 25]
+final dfa_bounds: [26, -1, 24, 24, 26]
+bcrs list edsm: [0.5740740740740742, 0.5843580914904083, 0.5533834586466164, 0.6401384083044983, 0.5529479107040641]
+bcrs list: [0.5962732919254657, 0.0, 0.5411764705882353, 0.647359454855196, 0.5679012345679013]
+bcr edsm: 0.5809803886439323
+bcr: 0.5881776129841996
+is_satisfiable: [True, False, True, True, True]
+time: 1532.1209277659946
+//////////////////////////////
+../FlexFringe/data/staminadata/95_training.txt.dat
+state count avarage: 14.6
+state_counts: [15, 14, 17, 13, 14]
+edsm_state_counts: [15, 15, 17, 14, 16]
+edsm_state_counts_2000: [15, 14, 14, 13, 14]
+final dfa_bounds: [15, 14, 14, 13, 14]
+bcrs list edsm: [0.5217391304347826, 0.6326129666011788, 0.5626477541371159, 0.5165562913907286, 0.5851063829787234]
+bcrs list: [0.5113636363636364, 0.0, 0.5753424657534245, 0.5, 0.5539568345323741]
+bcr edsm: 0.5637325051085058
+bcr: 0.428132587329887
+is_satisfiable: [True, True, True, True, True]
+time: 252.85707609800738
+//////////////////////////////
+../FlexFringe/data/staminadata/100_training.txt.dat
+state count avarage: 12.4
+state_counts: [12, 14, 13, 11, 12]
+edsm_state_counts: [13, 14, 15, 13, 13]
+edsm_state_counts_2000: [12, 12, 13, 11, 12]
+final dfa_bounds: [12, 14, 13, 11, 12]
+bcrs list edsm: [0.606060606060606, 0.6716417910447761, 0.4824561403508772, 0.515625, 0.409090909090909]
+bcrs list: [0.5695792880258901, 0.7142857142857143, 0.43523316062176165, 0.5641025641025642, 0.41379310344827586]
+bcr edsm: 0.5369748893094337
+bcr: 0.5393987660968411
+is_satisfiable: [True, True, True, True, True]
+time: 138.82063572399784
+//////////////////////////////

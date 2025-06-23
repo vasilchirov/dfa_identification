@@ -1,0 +1,282 @@
+stamina_exp_binsearch_satoffset_apta=1000_log.txt; apta bound:1000
+../FlexFringe/data/staminadata/5_training.txt.dat
+state count average: 59.6
+state_counts: [60, 58, 61, 59, 60]
+edsm_state_counts: [64, 60, 67, 63, 64]
+edsm state count average: 63.6
+edsm_state_counts_2000: [52, 52, 54, 52, 53]
+final satoffsets: [8, 6, 7, 7, 7]
+bcrs list edsm: [0.9473684210526316, 1.0, 1.0, 0.9894736842105264, 0.9824561403508771]
+bcrs list: [0.9655172413793104, 0.9850746268656716, 1.0, 1.0, 0.9824561403508771]
+bcr edsm: 0.9838596491228071
+bcr: 0.9866096017191719
+is_satisfiable: [True, True, True, True, True]
+time: 977.3311106129986
+//////////////////////////////
+../FlexFringe/data/staminadata/10_training.txt.dat
+state count average: 49.6
+state_counts: [45, 45, 68, 45, 45]
+edsm_state_counts: [45, 45, 73, 45, 45]
+edsm state count average: 50.6
+edsm_state_counts_2000: [36, 39, 42, 39, 38]
+final satoffsets: [9, 6, 7, 6, 7]
+bcrs list edsm: [0.975609756097561, 1.0, 0.8995555555555556, 1.0, 0.9787234042553191]
+bcrs list: [1.0, 1.0, 0.8995555555555556, 0.9714285714285714, 0.9787234042553191]
+bcr edsm: 0.9707777431816872
+bcr: 0.9699415062478893
+is_satisfiable: [True, True, True, True, True]
+time: 1757.9688372109958
+//////////////////////////////
+../FlexFringe/data/staminadata/15_training.txt.dat
+state count average: 81.5
+state_counts: [0, 85, 80, 76, 85]
+edsm_state_counts: [84, 90, 87, 82, 91]
+edsm state count average: 86.8
+edsm_state_counts_2000: [71, 69, 61, 63, 67]
+final satoffsets: [-1, 7, 5, 6, 6]
+bcrs list edsm: [0.4528301886792453, 0.6779661016949152, 0.5233644859813084, 0.47619047619047616, 0.48780487804878053]
+bcrs list: [0.0, 0.6779661016949152, 0.4571428571428572, 0.5217391304347826, 0.5490196078431373]
+bcr edsm: 0.5236312261189451
+bcr: 0.5514669242789232
+is_satisfiable: [False, True, True, True, True]
+time: 2456.752125658997
+//////////////////////////////
+stamina_exp_binsearch_satoffset_apta=1000_log.txt; apta bound:1000
+../FlexFringe/data/staminadata/20_training.txt.dat
+state count average: 45.2
+state_counts: [46, 46, 47, 45, 42]
+edsm_state_counts: [50, 47, 52, 51, 49]
+edsm state count average: 49.8
+edsm_state_counts_2000: [16, 14, 17, 14, 11]
+final satoffsets: [8, 11, 7, 6, 5]
+bcrs list edsm: [0.5714285714285715, 0.4, 0.4444444444444444, 0.3333333333333333, 0.25]
+bcrs list: [0.4, 0.23529411764705882, 0.5, 0.2, 0.28571428571428575]
+bcr edsm: 0.39984126984126983
+bcr: 0.3242016806722689
+is_satisfiable: [True, True, True, True, True]
+time: 1181.6345668650029
+//////////////////////////////
+../FlexFringe/data/staminadata/25_training.txt.dat
+state count average: 111.2
+state_counts: [111, 111, 115, 110, 109]
+edsm_state_counts: [112, 112, 117, 111, 110]
+edsm state count average: 112.4
+edsm_state_counts_2000: [111, 110, 115, 110, 109]
+final satoffsets: [0, 1, 0, 0, 0]
+bcrs list edsm: [0.6803601575689364, 0.6668553637135578, 0.7188968975242871, 0.6507713884992988, 0.6369469773725093]
+bcrs list: [0.6803601575689364, 0.6544202066590127, 0.6979736249597941, 0.64, 0.6512243547319656]
+bcr edsm: 0.670766156935718
+bcr: 0.6647956687839417
+is_satisfiable: [True, True, True, True, True]
+time: 201.81533631398634
+//////////////////////////////
+../FlexFringe/data/staminadata/30_training.txt.dat
+state count average: 76.8
+state_counts: [80, 70, 70, 91, 73]
+edsm_state_counts: [81, 75, 73, 92, 76]
+edsm state count average: 79.4
+edsm_state_counts_2000: [78, 69, 69, 90, 72]
+final satoffsets: [2, 1, 1, 1, 1]
+bcrs list edsm: [0.6015164279696714, 0.7231788079470198, 0.6910299003322259, 0.4692737430167598, 0.5877862595419847]
+bcrs list: [0.6656511805026657, 0.7231788079470198, 0.6660973526900085, 0.5013146362839616, 0.6027397260273972]
+bcr edsm: 0.6145570277615324
+bcr: 0.6317963406902105
+is_satisfiable: [True, True, True, True, True]
+time: 580.3193978000054
+//////////////////////////////
+../FlexFringe/data/staminadata/35_training.txt.dat
+state count average: 66.6
+state_counts: [66, 68, 66, 66, 67]
+edsm_state_counts: [67, 70, 70, 68, 69]
+edsm state count average: 68.8
+edsm_state_counts_2000: [66, 65, 64, 64, 65]
+final satoffsets: [0, 3, 2, 2, 2]
+bcrs list edsm: [0.5180533751962323, 0.35714285714285715, 0.5110565110565112, 0.5683355886332883, 0.5172413793103448]
+bcrs list: [0.49586776859504134, 0.3829787234042553, 0.5294117647058824, 0.6075949367088608, 0.5424200278164117]
+bcr edsm: 0.4943659422678467
+bcr: 0.5116546442460903
+is_satisfiable: [True, True, True, True, True]
+time: 565.4302641480026
+//////////////////////////////
+../FlexFringe/data/staminadata/40_training.txt.dat
+state count average: 35.4
+state_counts: [36, 37, 34, 34, 36]
+edsm_state_counts: [39, 39, 38, 38, 40]
+edsm state count average: 38.8
+edsm_state_counts_2000: [35, 34, 33, 31, 34]
+final satoffsets: [1, 3, 1, 3, 2]
+bcrs list edsm: [0.4897959183673469, 0.46511627906976744, 0.4081632653061225, 0.5454545454545454, 0.5945945945945945]
+bcrs list: [0.5233644859813084, 0.5, 0.45454545454545453, 0.5, 0.5853658536585366]
+bcr edsm: 0.5006249205584753
+bcr: 0.5126551588370599
+is_satisfiable: [True, True, True, True, True]
+time: 637.2083004689921
+//////////////////////////////
+../FlexFringe/data/staminadata/45_training.txt.dat
+state count average: 108.4
+state_counts: [111, 106, 106, 107, 112]
+edsm_state_counts: [111, 106, 106, 107, 112]
+edsm state count average: 108.4
+edsm_state_counts_2000: [111, 106, 106, 107, 111]
+final satoffsets: [0, 0, 0, 0, 1]
+bcrs list edsm: [0.6399499060738886, 0.5946902654867257, 0.626972010178117, 0.642491724345471, 0.6132952108649036]
+bcrs list: [0.6359621451104102, 0.5983082015446856, 0.626972010178117, 0.6311124694376529, 0.6112154547893749]
+bcr edsm: 0.6234798233898211
+bcr: 0.6207140562120481
+is_satisfiable: [True, True, True, True, True]
+time: 232.41549522799323
+//////////////////////////////
+../FlexFringe/data/staminadata/50_training.txt.dat
+state count average: 68.2
+state_counts: [66, 68, 69, 69, 69]
+edsm_state_counts: [66, 68, 70, 69, 69]
+edsm state count average: 68.4
+edsm_state_counts_2000: [66, 68, 69, 69, 69]
+final satoffsets: [0, 0, 0, 0, 0]
+bcrs list edsm: [0.5468678555098307, 0.510411622276029, 0.5208333333333334, 0.5966850828729282, 0.5076430856736579]
+bcrs list: [0.5798969072164949, 0.5187319884726225, 0.5314799672935404, 0.5966850828729282, 0.4927536231884058]
+bcr edsm: 0.5364881959331558
+bcr: 0.5439095138087983
+is_satisfiable: [True, True, True, True, True]
+time: 111.93402770599641
+//////////////////////////////
+../FlexFringe/data/staminadata/55_training.txt.dat
+state count average: 34.4
+state_counts: [35, 34, 33, 35, 35]
+edsm_state_counts: [36, 35, 35, 35, 37]
+edsm state count average: 35.6
+edsm_state_counts_2000: [34, 33, 33, 34, 33]
+final satoffsets: [1, 1, 0, 1, 2]
+bcrs list edsm: [0.4158415841584159, 0.576271186440678, 0.40490797546012275, 0.6448598130841122, 0.585]
+bcrs list: [0.46258503401360546, 0.5614035087719298, 0.4626334519572953, 0.6511627906976744, 0.484149855907781]
+bcr edsm: 0.5253761118286657
+bcr: 0.5243869282696572
+is_satisfiable: [True, True, True, True, True]
+time: 222.91871423399425
+//////////////////////////////
+../FlexFringe/data/staminadata/60_training.txt.dat
+state count average: 22.6
+state_counts: [23, 23, 22, 23, 22]
+edsm_state_counts: [25, 26, 24, 25, 25]
+edsm state count average: 25.0
+edsm_state_counts_2000: [23, 21, 22, 22, 22]
+final satoffsets: [0, 2, 0, 1, 0]
+bcrs list edsm: [0.64, 0.3181818181818182, 0.3308270676691729, 0.40875912408759124, 0.41379310344827586]
+bcrs list: [0.6666666666666666, 0.3181818181818182, 0.3380281690140845, 0.46052631578947373, 0.41379310344827586]
+bcr edsm: 0.4223122226773716
+bcr: 0.4394392146200638
+is_satisfiable: [True, True, True, True, True]
+time: 186.33809356600977
+//////////////////////////////
+../FlexFringe/data/staminadata/65_training.txt.dat
+state count average: 48.8
+state_counts: [48, 48, 50, 48, 50]
+edsm_state_counts: [48, 48, 52, 48, 50]
+edsm state count average: 49.2
+edsm_state_counts_2000: [48, 48, 50, 48, 50]
+final satoffsets: [0, 0, 0, 0, 0]
+bcrs list edsm: [0.6558251133031192, 0.6860986547085203, 0.6562009419152275, 0.6581560283687944, 0.608294930875576]
+bcrs list: [0.6594810379241517, 0.692820133234641, 0.6748466257668712, 0.6558126249642959, 0.6010483401281304]
+bcr edsm: 0.6529151338342476
+bcr: 0.656801752403618
+is_satisfiable: [True, True, True, True, True]
+time: 66.57260548199702
+//////////////////////////////
+../FlexFringe/data/staminadata/70_training.txt.dat
+state count average: 28.0
+state_counts: [25, 31, 28, 28, 28]
+edsm_state_counts: [27, 33, 29, 29, 29]
+edsm state count average: 29.4
+edsm_state_counts_2000: [25, 31, 28, 28, 28]
+final satoffsets: [0, 0, 0, 0, 0]
+bcrs list edsm: [0.7904, 0.5606557377049181, 0.5687074829931973, 0.5725646123260438, 0.7317073170731707]
+bcrs list: [0.7960159362549801, 0.5524861878453039, 0.6091370558375635, 0.5985680190930788, 0.7468879668049794]
+bcr edsm: 0.6448070300194659
+bcr: 0.6606190331671812
+is_satisfiable: [True, True, True, True, True]
+time: 58.222950224997476
+//////////////////////////////
+../FlexFringe/data/staminadata/75_training.txt.dat
+state count average: 27.8
+state_counts: [28, 27, 28, 27, 29]
+edsm_state_counts: [28, 28, 28, 27, 29]
+edsm state count average: 28.0
+edsm_state_counts_2000: [28, 27, 28, 27, 28]
+final satoffsets: [0, 0, 0, 0, 1]
+bcrs list edsm: [0.5439330543933055, 0.6348547717842324, 0.5442764578833694, 0.5179542981501633, 0.5714285714285715]
+bcrs list: [0.5591397849462365, 0.5984598459845983, 0.45959595959595956, 0.49607182940516276, 0.5942857142857143]
+bcr edsm: 0.5624894307279285
+bcr: 0.5415106268435343
+is_satisfiable: [True, True, True, True, True]
+time: 38.03744904699852
+//////////////////////////////
+../FlexFringe/data/staminadata/80_training.txt.dat
+state count average: 16.0
+state_counts: [16, 16, 16, 16, 16]
+edsm_state_counts: [19, 18, 17, 21, 20]
+edsm state count average: 19.0
+edsm_state_counts_2000: [14, 15, 15, 15, 16]
+final satoffsets: [2, 1, 1, 1, 0]
+bcrs list edsm: [0.5691056910569107, 0.5490196078431373, 0.6271777003484321, 0.5325443786982248, 0.5]
+bcrs list: [0.5384615384615384, 0.5647058823529412, 0.7028753993610224, 0.5325443786982248, 0.5294117647058824]
+bcr edsm: 0.555569475589341
+bcr: 0.5735997927159218
+is_satisfiable: [True, True, True, True, True]
+time: 61.24992914299946
+//////////////////////////////
+../FlexFringe/data/staminadata/85_training.txt.dat
+state count average: 36.6
+state_counts: [37, 35, 36, 36, 39]
+edsm_state_counts: [37, 36, 37, 36, 39]
+edsm state count average: 37.0
+edsm_state_counts_2000: [37, 35, 36, 35, 39]
+final satoffsets: [0, 0, 1, 1, 0]
+bcrs list edsm: [0.6410684474123539, 0.6666666666666665, 0.6464143426294822, 0.7051658966820664, 0.6803800082610492]
+bcrs list: [0.6299745977984759, 0.6604477611940299, 0.6565557729941293, 0.7212617948894552, 0.6905324961265596]
+bcr edsm: 0.6679390723303237
+bcr: 0.67175448460053
+is_satisfiable: [True, True, True, True, True]
+time: 89.17843096199795
+//////////////////////////////
+../FlexFringe/data/staminadata/90_training.txt.dat
+state count average: 24.6
+state_counts: [25, 26, 23, 24, 25]
+edsm_state_counts: [26, 26, 25, 24, 26]
+edsm state count average: 25.4
+edsm_state_counts_2000: [25, 26, 23, 24, 25]
+final satoffsets: [0, 0, 0, 0, 0]
+bcrs list edsm: [0.5740740740740742, 0.5843580914904083, 0.5533834586466164, 0.6401384083044983, 0.5529479107040641]
+bcrs list: [0.5518394648829431, 0.556988138215575, 0.5647058823529412, 0.6180257510729614, 0.5707839819514946]
+bcr edsm: 0.5809803886439323
+bcr: 0.5724686436951831
+is_satisfiable: [True, True, True, True, True]
+time: 40.82515581000189
+//////////////////////////////
+../FlexFringe/data/staminadata/95_training.txt.dat
+state count average: 14.8
+state_counts: [15, 15, 15, 14, 15]
+edsm_state_counts: [15, 15, 17, 14, 16]
+edsm state count average: 15.4
+edsm_state_counts_2000: [15, 15, 15, 14, 15]
+final satoffsets: [0, 0, 0, 0, 0]
+bcrs list edsm: [0.5217391304347826, 0.6326129666011788, 0.5626477541371159, 0.5165562913907286, 0.5851063829787234]
+bcrs list: [0.5217391304347826, 0.5957446808510638, 0.5626477541371159, 0.5605095541401274, 0.5]
+bcr edsm: 0.5637325051085058
+bcr: 0.548128223912618
+is_satisfiable: [True, True, True, True, True]
+time: 24.857051215003594
+//////////////////////////////
+../FlexFringe/data/staminadata/100_training.txt.dat
+state count average: 13.0
+state_counts: [13, 14, 13, 12, 13]
+edsm_state_counts: [13, 14, 15, 13, 13]
+edsm state count average: 13.6
+edsm_state_counts_2000: [12, 13, 13, 11, 12]
+final satoffsets: [1, 1, 0, 1, 1]
+bcrs list edsm: [0.606060606060606, 0.6716417910447761, 0.4824561403508772, 0.515625, 0.409090909090909]
+bcrs list: [0.5333333333333333, 0.6716417910447761, 0.4931506849315069, 0.49586776859504134, 0.48484848484848486]
+bcr edsm: 0.5369748893094337
+bcr: 0.5357684125506285
+is_satisfiable: [True, True, True, True, True]
+time: 31.35391616000561
+//////////////////////////////
