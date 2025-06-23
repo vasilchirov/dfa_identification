@@ -16,37 +16,64 @@ def run_kfold(*args, **kwargs):
     - position 3 -- location of dfa_identification from FlexFringe root (e.g. ../dfa_identification/)
     - **kwargs** -- list of key=value arguments to pass as command line arguments to FlexFringe
 
-    **Example:** ``run_kfold("generated-datasets/train_data.dat", "generated-datasets/test_data.dat", "../FlexFringe", "../dfa_identification/", ini="ini/edsm.ini", mode="satsolver", satgreedy="1", satoffset="3", aptabound="500")``
+    **Example:** ``run_kfold("generated-datasets/train_data.dat", 5, "../FlexFringe", "../dfa_identification/", ini="ini/edsm.ini", mode="satsolver", satgreedy="1", satoffset="3", aptabound="500")``
     """
     file_name = args[0]
     k = args[1]
     flexfringe_root_dir = args[2]
     dfa_identification_dir = args[3]
 
+    offsets = []
+    dfa_bounds = []
+    apta_bounds = []
+    if "satoffset" in kwargs.keys() and type(kwargs["satoffset"]) == list:
+        is_offset_list = True
+        offsets = kwargs["satoffset"]
+        dfa_bounds = kwargs["dfabound"]
+        apta_bounds = kwargs["aptabound"]
+    else:
+        is_offset_list = False
+
     os.makedirs("kfold", exist_ok=True)
     try:
         kfold.generate_k_folds(k, file_name)
 
+        state_counts = []
+        bcrs = []
         total = 0.0
         for i in range(k):
             train_fold_name = file_name.split("/")[-1] + f"_train_{i + 1}.dat"
             test_fold_name = file_name.split("/")[-1] + f"_test_{i + 1}.dat"
-            data = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name, flexfringe_root_dir, **kwargs)
-            # flexfringe.show(data, "etukaeitei") if i == 4 else None
+
+            if is_offset_list:
+                kwargs["satoffset"] = offsets[i]
+                kwargs["dfabound"] = dfa_bounds[i]
+                kwargs["aptabound"] = apta_bounds[i]
+                data, state_count, _ = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name,
+                                                          flexfringe_root_dir, **kwargs)
+            else:
+                data, state_count, _ = flexfringe.flexfringe(dfa_identification_dir + "kfold/" + train_fold_name,
+                                                          flexfringe_root_dir, **kwargs)
+
+            state_counts.append(state_count)
             start_node_id, m, data_2 = flexfringe.load_model("kfold/" + train_fold_name + ".ff.final.json")
+
             with open(f"kfold/" + test_fold_name) as test_set:
                 traces = test_set.read()
+
             result = flexfringe.calculate_accuracy(traces, start_node_id, m)
             print("tp:", result[0], ", fp:", result[2], ", tn:", result[1], ", fn:", result[3],
                   ", bcr accuracy:", result[6], ", ratio:", result[4] / result[5])
             total += result[6]
+            bcrs.append(result[6])
 
         shutil.rmtree("kfold")
     except Exception as e:
         shutil.rmtree("kfold")
         print(e)
-        return None
-    return total / k
+        return None, None, None
+    return total / k, bcrs, state_counts
+
 
 def run(*args, **kwargs):
     """
@@ -74,10 +101,10 @@ def run(*args, **kwargs):
         with open("run_dir/" + train_file_name + "_temp.dat", "w") as f:
             f.write(train_data)
 
-        data = flexfringe.flexfringe(dfa_identification_dir + "run_dir/" + train_file_name + "_temp.dat", flexfringe_root_dir, **kwargs)
+        data, state_count, _ = flexfringe.flexfringe(dfa_identification_dir + "run_dir/" + train_file_name + "_temp.dat",
+                                                  flexfringe_root_dir, **kwargs)
         flexfringe.show(data, "some_name")
         start_node_id, m, data_2 = flexfringe.load_model("run_dir/" + train_file_name + "_temp.dat.ff.final.json")
-        count_nodes.count_states("run_dir/" + train_file_name + "_temp.dat.ff.final.dot")
 
         with open(dfa_identification_dir + test_file_path) as test_set:
             test_traces = test_set.read()
@@ -90,5 +117,5 @@ def run(*args, **kwargs):
     except Exception as e:
         shutil.rmtree("run_dir")
         print(e)
-        return None
-    return result[6]
+        return None, None
+    return result[6], state_count
